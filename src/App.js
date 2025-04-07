@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import techData from './data/techList.json';
+import techData from './data/techList.js';
 import TechList from './components/TechList';
 import FilterBar from './components/FilterBar';
 import './App.css';

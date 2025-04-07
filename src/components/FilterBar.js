@@ -1,4 +1,7 @@
-export default function FilterBar({ searchTerm, onSearch, selectedCategory, onCategoryChange }) {
+import React from "react";
+
+//takes two inputs search and category filter
+const FilterBar = ({ searchTerm, onSearch, selectedCategory, onCategoryChange }) => { 
     return (
         <div className="filter-bar">
             <input 
@@ -16,4 +19,6 @@ export default function FilterBar({ searchTerm, onSearch, selectedCategory, onCa
             </select>
         </div>
     );
-}
+};
+
+export default FilterBar;
