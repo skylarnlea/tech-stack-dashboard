@@ -1,6 +1,6 @@
 export default function FilterBar({ searchTerm, onSearch, selectedCategory, onCategoryChange }) {
     return (
-        <div>
+        <div className="filter-bar">
             <input 
                 type="text"
                 placeholder="Search tech..."
